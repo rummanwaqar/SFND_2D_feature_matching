@@ -55,7 +55,7 @@ extractor->compute(img, keypoints, descriptors);
 
 ## MP.5 Descriptor Matching
 We use the OpenCV FLANN implementation for descriptor matching. This has to be implemented 
-differently for HOG based and binary based descriptors. This was investigated in the [this](https://stackoverflow.com/questions/43830849opencv-use-flann-with-orb-descriptors-to-match-features) stackoverflow question.
+differently for HOG based and binary based descriptors. This was investigated in the [this](https://stackoverflow.com/questions/43830849/opencv-use-flann-with-orb-descriptors-to-match-features) stackoverflow question.
 
 ```
 if (matcherType.compare("MAT_FLANN") == 0)
